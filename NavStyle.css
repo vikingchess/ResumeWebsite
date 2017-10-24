@@ -1,0 +1,182 @@
+/* David Flom Portfolio CSS Document for navigation */
+nav 
+{
+    margin: 0;
+    padding: 0;
+    background-color: #000080;
+}
+
+nav p 
+{
+    display: block;
+    padding: 0 20px;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+}
+
+nav:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav ul 
+{
+    float: right;
+    padding: 0 20px 0 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li 
+{
+    margin: 0;
+    display: inline-block;
+    float: left;
+    background-color: #000080;
+}
+
+nav a 
+{
+    display: block;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+li:hover, nav a:hover 
+{
+	color: #000080;
+	background: #e9e9e9;
+}
+
+nav ul ul 
+{
+    display: none;
+    position: absolute;
+    top: 50px;
+}
+
+nav ul li:hover > ul 
+{
+    display: inherit;
+}
+
+nav ul ul li 
+{
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li 
+{
+    position: relative;
+    top: -50px;
+    left: 170px;
+}
+
+#drop, .checkbox 
+{
+    display: none;
+}
+
+@media all and (max-width: 800px) 
+{
+
+    nav a 
+	{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    nav p 
+	{
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav 
+	{
+        margin: 0;
+    }
+
+    .checkbox + a, .menu 
+	{
+        display: none;
+    }
+
+    .checkbox 
+	{
+        display: inline-block;
+        float: right;
+        background-color: #000080;
+        padding: 12px;
+        height: 26px;
+        color: #FFF;
+    }
+
+    .checkbox:hover 
+	{
+		color: #000080;
+        background-color: #e9e9e9;
+    }
+
+    [id=drop]:checked + ul 
+	{
+        display: block;
+    }
+
+    nav ul li 
+	{
+        display: block;
+        width: 100%;
+    }
+
+    nav ul ul .checkbox, nav ul ul a 
+	{
+        padding: 0 40px;
+    }
+
+    nav ul ul ul a 
+	{
+        padding: 0 80px;
+    }
+
+    nav ul ul 
+	{
+        float: none;
+        position: static;
+    }
+
+    nav ul ul li:hover > ul, nav ul li:hover > ul 
+	{
+        display: none;
+    }
+
+    nav ul ul li 
+	{
+        display: block;
+        width: 100%;
+    }
+
+    nav ul ul ul li 
+	{
+        position: static;
+    }
+
+    nav ul 
+	{
+        float: none;
+    }
+}

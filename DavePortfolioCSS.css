@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* David Flom Portfolio CSS Document */
+/* Color Scheme #00080 Navy #99D3DF Ice, #88BBD6 Fresh Water, #CDCDCD PLaster, #E9E9E9 233,233,233 Linen*/
+body
+{
+	background-color: #000080;
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	color: #E9E9E9;
+	font-size: 18px;
+	font-weight: 400;
+}
+h1
+{
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	font-weight:900;
+	font-size: 48;
+	color: #e9e9e9;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+h2
+{
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	font-weight:900;
+	font-size:26px;
+	color: #e9e9e9;
+	text-shadow: 2px 2px black;
+}
+h3
+{
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	font-weight:400;
+	font-size:24px;
+	color: #e9e9e9;
+}
+.hyperlink 
+{
+	color: #88BBD6;
+	text-shadow: 1px 1px 1px navy;
+}
+hr.style-four 
+{ 
+	height: 12px; 
+	border: 0; 
+	box-shadow: inset 0 12px 12px -12px rgb(250, 240, 230);
+	width: 90%;
+}
+.liststyle
+{
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	color: #e9e9e9;
+	font-size: 16px;
+	font-weight: 400;
+	list-style-image: url(Images/arrow_bullet_small.png);
+}
+aside
+{
+	border-style: solid;
+	border-color: #88BBD6;
+	border-width: 3px;
+	border-radius: 10px;
+	text-align:left;
+	display:block;
+	float:right;
+	line-height: 150%;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:5px;
+	width:30%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	height:auto;
+}
+footer
+{
+	background-color: #000080	;
+	text-align: center;
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	color: #e9e9e9;
+	font-size: 14px;
+	font-weight: 400;	
+}
+img.header
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.centertext
+{
+	text-align: center;
+	font-size: 24px;
+}
+table, th, td
+{
+	border: 1px solid #cdcdcd;
+	padding: 4px;
+}
+table
+{
+	align-content: center;
+	align: center;
+}
+th
+{
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	color: #e9e9e9;
+	font-size: 18px;
+	font-weight: 400;		
+}
+td
+{
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	color: #e9e9e9;
+	font-size: 16px;
+	font-weight: 200;	
+}
+.resume
+{
+	border-style: solid;
+	border-color: #88BBD6;
+	border-width: 3px;
+	border-radius: 10px;
+	padding: 1px;
+	width:65%;
+}
+.resumecell
+{
+	border-style: hidden;
+	border-width: 1px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.projectcell
+{
+	border-bottom-style: dashed;
+	border-bottom-color: #88bbd6;
+	border-bottom-width: 2px;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-radius: 10px;
+	padding: 5px;
+}
+.sendbutton
+{
+	border-style: solid;
+	border-color: #88BBD6;
+	border-width: 2px;
+	border-radius: 10px;
+	padding: 1px;
+	align-items: center;
+	align-content: center;
+	width: 75px;
+	font-family:Gotham, Helvetica, Arial, sans-serif;
+	color: #000080;
+	font-size: 18px;
+	font-weight: 400;
+}
