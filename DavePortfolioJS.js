@@ -78,11 +78,6 @@ var snowStorm = (function(window, document) {
 
     var getAnimationFrame;
 
-    /**
-     * hat tip: paul irish
-     * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-     * https://gist.github.com/838785
-     */
 
     function timeoutShim(callback) {
       window.setTimeout(callback, 1000/(storm.animationInterval || 20));
@@ -95,7 +90,6 @@ var snowStorm = (function(window, document) {
         window.msRequestAnimationFrame ||
         timeoutShim);
 
-    // apply to window, avoid "illegal invocation" errors in Chrome
     getAnimationFrame = _animationFrame ? function() {
       return _animationFrame.apply(window, arguments);
     } : null;
@@ -112,7 +106,6 @@ var snowStorm = (function(window, document) {
 
     }
 
-    // note local scope.
     var localFeatures = {
 
       transform: {

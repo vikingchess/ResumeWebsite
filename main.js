@@ -1,4 +1,4 @@
-
+   // Copyright 2017 David Flom
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCwC7U1GrTjk6-ZVScaUDN3nX_fobxuINI",

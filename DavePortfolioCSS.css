@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* David Flom Portfolio CSS Document */
+/* Copyright 2017 David Flom Portfolio CSS Document */
 /* Color Scheme #00080 Navy #99D3DF Ice, #88BBD6 Fresh Water, #CDCDCD PLaster, #E9E9E9 233,233,233 Linen*/
 body
 {
@@ -52,6 +52,16 @@ hr.style-four
 	font-size: 16px;
 	font-weight: 400;
 	list-style-image: url(Images/arrow_bullet_small.png);
+}
+.videoStyle
+{
+	display: block;
+	width: 600px;
+	border-style: solid;
+	border-color: #88BBD6;
+	border-width: 3px;
+	border-radius: 10px;
+	float:none;
 }
 aside
 {
